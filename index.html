@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <title>Mini DOM Project</title>
-    <link rel="stylesheet" href="styletask6.css">
+  <meta charset="UTF-8">
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="styletask7.css">
 </head>
-
 <body>
 
-    <h1 id="title">Welcome to My Web Page</h1>
-    <p id="text">Click the button to change me!</p>
+  <div class="app-container">
+    <h2>My To-Do List</h2>
 
-    <button id="changeBtn" >Change Text</button>
-    <button id="toggleBtn">Toggle Theme</button>
+    <!-- Input Area -->
+    <div class="input-area">
+      <input type="text" id="taskInput" placeholder="Enter a task">
+      <button id="addBtn">Add</button>
+    </div>
 
-    <!-- Linking script.js correctly -->
-    <script src="script6.js"></script>
+    <!-- Task List -->
+    <ul id="taskList"></ul>
+  </div>
+
+  <!-- JS Link -->
+  <script src="script7.js"></script>
 </body>
-
 </html>
